@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <script src="https://kit.fontawesome.com/d89dd51039.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&family=Roboto:wght@300&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&family=Roboto:wght@300&display=swap" rel="stylesheet">   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;800&family=Roboto:wght@300&family=Stick+No+Bills:wght@800&display=swap" rel="stylesheet">
+    <title>Mohamed Faseh</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>FASE7</span>
+        </div>
+        
+        <div class="links">
+            <span class="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#pers"> Personal-Info</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#cart">certification</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="info">
+        <div class="welc">
+            <p>hi it's
+            </p>
+            <br>
+            <br>
+            <span> mohamed faseh  </span>
+            <div></div>
+
+            </div>
+        <div class="pic">
+            <img src="Picsart_22-11-07_07-36-36-970.jpg" alt="">
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2>About</h2>
+    <div class="about">
+        
+        <p>
+            A 
+                sophomore student of
+             Mechanical Engineering major with 
+            passion towards computer science and its aspects.
+             Interested in Web Development and Competitive 
+             Programming
+             . Worked on variety of interesting projects 
+             with other 
+             colleagues gaining experience and skills of 
+             teamwork, 
+             prioritizing,
+             delegation and meeting deadlines.
+        </p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 id="pers">Personal Info</h2><br>
+    <div class="pers">     
+    <ul>
+        
+        <li><i class="fa-solid fa-hashtag"> </i> : Mohame Faseh</li><br>
+        <li><i class="fa-solid fa-calendar-days"></i>  : 21years</li><br>
+        <li><i class="fa-solid fa-location-dot">  </i> : Giza-Egypt<br></li><br>
+        <li><i class="fa-solid fa-building-columns">  </i>: Cairo University Faculty Of Engineering</li><br>
+    </ul>
+    
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 id="skill">SKILLS</h2>
+    <div class="skills">
+       <div> <img src="photoshop.png" ></div>
+       <div> <img src="premiere-pro.png" ></div>
+       <div> <img src="after-effects.png"></div>
+       <div> <img src="css-3.png" ></div>
+       <div> <img src="html-5.png"></div>
+       <div> <img src="c-.png" ></div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <h2 id="cart">Certifications</h2><br>
+        <div class="certification">
+            
+            <div class="slideshow-container">
+    
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="udacity new.jpg" style="width:100%; height:80%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="Html new.jpg" style="width:100%; height:80%">
+                  <div class="text"></div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <div class="numbertext"></div>
+                  <img src="tccd new.jpg" style="width:100%; height:80%">
+                  <div class="text"></div>
+                </div>
+                
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                  <span class="dot"></span> 
+                </div>
+        </div>
+           
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+
+            <div class="copy">
+                <ul>
+                    <li>   <a href="https://www.facebook.com/mohamed.faseh.39/" target="_blank"><i class="fa-brands fa-facebook"></i> </a></li>  <br>
+                    <li>   <a href="https://www.linkedin.com/in/mohamed-faseh-b7a666250/" target="_blank"><i class="fa-brands fa-linkedin"></i> </a></i></li> <br>
+                    <li>  <a href="https://twitter.com/Fase7M"><i class="fa-brands fa-twitter" target="_blank"></i></a></li>
+                </ul>
+                <div>
+                    all copyrights reserved &copy;
+                </div>
+
+
+            </div>
+    
+</body>
+</html>
