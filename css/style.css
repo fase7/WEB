@@ -91,7 +91,8 @@ text-transform: capitalize;box-shadow:var(--maincolor) 5px 2px 13px 5px}
     .about{background-color: var(--maincolor);display: flex;
     justify-content: center;align-items: center;border-top: 4px solid var(--fontcolor);}
 h2{text-align: center;position: relative;font-size: 40px;font-weight: bold;
-transition: 0.4s;}
+transition: 0.4s;font-family: 'Roboto', sans-serif;
+font-family: 'Stick No Bills', sans-serif;}
 h2:hover{padding-left: 20px;text-shadow: var(--divcolor) 2px 1px 4px;}
 
 
