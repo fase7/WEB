@@ -195,7 +195,7 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 @media (max-width: 767px) {
     .welc span {font-size: 6px;}
     .pic img {height: 350px;width: 350px;}
-    .logo{width: 70%;display
+    .logo{width: 100%;display: flex
 
 
 
