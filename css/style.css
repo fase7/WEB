@@ -193,14 +193,14 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 /* Mobile */
 
 @media (max-width: 767px) {
-    .welc span {font-size: 10px;}
+    .welc span {font-size: 6px;}
     .pic img {height: 350px;width: 350px;}
     .logo{width: 70%;display: flex;justify-content: center;}
     .links ul {width: 100%;display: ;justify-content: center;}
     .links{width: 77%;}
     .links ul li  {margin-left:10px ;}
     header{display: flex;flex-wrap: wrap;justify-content: center;}
-    .welc{width: 70%;}
+    .welc{width: 90%;}
     .about p {font-size: 15px;}
     .welc div{display: none;}
 
