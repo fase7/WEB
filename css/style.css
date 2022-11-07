@@ -238,13 +238,15 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 }
 @media (max-width: 992px) {
     .welc span {font-size: 30px;}
-    .welc p {font-size: 20px;}
+    .welc p {    font-size: 20px;
+    width: 35%;}
+      .welc div{left: 1%}
 
     
 }
-@media (max-width: 922px) {
-    .welc span {font-size: 30px;}
-    .welc div{left: 1%}
+
+
+  
 
     
 }
