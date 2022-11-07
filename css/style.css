@@ -162,7 +162,8 @@ html {
     padding: 10px;display: flex;
 
 }
-.copy ul li {font-size: 30px;font-weight: bold;color: aliceblue;width: calc(50% / 3);}
+.copy ul li {font-size: 30px;
+margin-left:5px;font-weight: bold;color: aliceblue;width: calc(50% / 3);}
 .copy ul li i {color: #ffffff;}
 .copy div {color: aliceblue;font-size: 30px;width: 50%;display: flex;
 justify-content: flex-end;align-items: center;text-transform: capitalize;}
@@ -209,7 +210,7 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
         margin-left: auto;
         margin-right: auto;}
     .links{width: 77%;}
-    .links ul li  {margin-left:17px ;}
+    .links ul li  {margin-left:20px ;}
     header{display: flex;flex-wrap: wrap;justify-content: center;}
     .welc{width: 90%;}
     .about p {font-size: 15px;}
