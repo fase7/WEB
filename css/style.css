@@ -87,8 +87,8 @@ animation-delay: 0.3s;}
 
 .about p {color: white;width: 70%;text-align: justify;
     margin-left: auto;margin-right: auto;font-size: 25px;
-text-transform: capitalize;box-shadow:var(--maincolor) 5px 2px 13px 5px;}
-    .about{background-color: var(--maincolor);display: flex;
+text-transform: capitalize;}
+    .about{background-color: var(--maincolor);display: flex;box-shadow:var(--maincolor) 5px 2px 13px 5px;
     justify-content: center;align-items: center;border-top: 4px solid var(--fontcolor);}
 h2{text-align: center;position: relative;font-size: 40px;font-weight: bold;
 transition: 0.4s;font-family: 'Roboto', sans-serif;
@@ -195,7 +195,14 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 @media (max-width: 767px) {
     .welc span {font-size: 6px;}
     .pic img {height: 350px;width: 350px;}
-    .logo{width: 70%;display: flex;justify-content: center;}
+    .logo{width: 70%;display
+
+
+
+
+
+
+;justify-content: center;}
     .links ul {width: 100%;display: ;justify-content: center;}
     .links{width: 77%;}
     .links ul li  {margin-left:10px ;}
