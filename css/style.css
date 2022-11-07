@@ -6,8 +6,8 @@
 }
 body{
     padding: 0;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+font-family: 'Kanit', sans-serif;
 margin: 0;}
 
 
@@ -179,7 +179,7 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 
 @media (max-width: 443px) {
     .links ul li  {margin-left:5px ;}
-    .links ul {display: none ;}
+    .logo {display: none ;}
 
 
 
