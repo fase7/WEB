@@ -6,8 +6,9 @@
 }
 body{
     padding: 0;
-    font-family: 'Josefin Sans', sans-serif;
-font-family: 'Kanit', sans-serif;
+    font-family: 'Kanit', sans-serif;
+
+font-weight: 500;
 margin: 0;padding: 0;}
 
 
@@ -34,8 +35,9 @@ flex-wrap: wrap;box-shadow: var(--maincolor) 2px 0px 13px 4px;;}
        color: var(--divcolor);
        text-decoration: none;
        font-size: 20px;
-       font-weight: bold;
+       font-weight: 900;
        transition: 0.4s;
+       font-family: ;
 
 }
 .logo{margin-left: 40px;color: var(--divcolor);
@@ -198,8 +200,8 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 
 }
 @media (max-width: 380px) {
-    .skills div img {height: 70px;
-        width: 70px;}
+    .skills div img {height: 60px;
+        width: 60px;}
 
 }
 
