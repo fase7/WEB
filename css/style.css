@@ -8,7 +8,7 @@ body{
     padding: 0;
     font-family: 'Josefin Sans', sans-serif;
 font-family: 'Kanit', sans-serif;
-margin: 0;}
+margin: 0;padding: 0;}
 
 
 
@@ -57,6 +57,7 @@ align-items: center;}
 .welc , .pic{width: 40%;display: flex;justify-content: center;}
 .pic img{width: 450px;height: 450px;}
 .welc p {font-size: 25px;color: var(--divcolor);font-weight: bold;
+    
 }
 .welc{display: flex;
 justify-content: center;align-content: flex-end;position: relative;}
@@ -66,7 +67,7 @@ font-family: 'Roboto', sans-serif;
 font-family: 'Stick No Bills', sans-serif;
 padding: 20px;position: relative;transition: 0.4s;}
 .welc div{height: 50px ;width: 5px;background-color: #e43f5a;
-position: absolute; top: 22%;left: 8%;transition: 0.8s;}
+position: absolute; top: 22%;left: 5%;transition: 0.8s;}
 
 /* .welc span::before{
     content: "";
@@ -88,8 +89,9 @@ animation-delay: 0.3s;}
 .about p {color: white;width: 70%;text-align: justify;
     margin-left: auto;margin-right: auto;font-size: 25px;
 text-transform: capitalize;}
-    .about{background-color: var(--maincolor);display: flex;box-shadow:var(--maincolor) 5px 2px 13px 5px;
-    justify-content: center;align-items: center;border-top: 4px solid var(--fontcolor);}
+    .about{background-color: var(--maincolor);width: 85%;margin-left: auto;
+        margin-right: auto;display: flex;box-shadow:var(--maincolor) 5px 2px 13px 5px;
+    justify-content: center;border-radius: 25px;;align-items: center;border-top: 4px solid var(--fontcolor);}
 h2{text-align: center;position: relative;font-size: 40px;font-weight: bold;
 transition: 0.4s;font-family: 'Roboto', sans-serif;
 font-family: 'Stick No Bills', sans-serif;}
@@ -123,11 +125,17 @@ h2:hover{padding-left: 20px;text-shadow: var(--divcolor) 2px 1px 4px;}
     ;background-color: #162447;
     padding: 20px;border-top: 4px solid var(--fontcolor);
 box-shadow:var(--maincolor) 5px 2px 13px 5px;
+width: 85%;margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
 
 }
 .pers ul li {font-size: 30px;font-weight: bold;color: #ffffff;}
 .pers ul li i {color: #e43f5a;color: #ffffff;}
 .skills  {display: flex;gap: 30px;padding: 10px;
+    width: 85%;margin-left: auto;
+        margin-right: auto;
+        border-radius: 25px;
     flex-wrap: wrap;box-shadow:var(--maincolor) 5px 2px 13px 5px;}
 .skills div img {height: 150px;width: 150px;}
 .skills div {margin-left: auto;
@@ -138,8 +146,9 @@ margin-right: auto;transition: 0.2s;}
     ;height: 2%;margin: auto;text-align: center;
     font-size:25px;
 }
-.certification div img {border: 3px solid var(--fontcolor);
-box-shadow:  11px 11px 11px 3px var(--maincolor);;}
+.certification div img {border-top: 3px solid var(--fontcolor);
+box-shadow:  11px 11px 11px 3px var(--maincolor);
+border-radius: 25px;;}
 
 .certification li {margin-right:auto ;}
 html {
@@ -162,8 +171,7 @@ html {
     padding: 10px;display: flex;
 
 }
-.copy ul li {font-size: 30px;
-margin-left:5px;font-weight: bold;color: aliceblue;width: calc(50% / 3);}
+.copy ul li {font-size: 30px;font-weight: bold;color: aliceblue;width: calc(50% / 3);}
 .copy ul li i {color: #ffffff;}
 .copy div {color: aliceblue;font-size: 30px;width: 50%;display: flex;
 justify-content: flex-end;align-items: center;text-transform: capitalize;}
@@ -175,7 +183,7 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 /* media queries */
 @media (max-width: 363px) {
     .links ul li  {margin-left:1px ;}
-    .links ul li a {font-size: 18px;}
+    .links ul li a {font-size: 10px;}
 }
 
 @media (max-width: 443px) {
@@ -210,7 +218,7 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
         margin-left: auto;
         margin-right: auto;}
     .links{width: 77%;}
-    .links ul li  {margin-left:20px ;}
+    .links ul li  {margin-left:10px ;}
     header{display: flex;flex-wrap: wrap;justify-content: center;}
     .welc{width: 90%;}
     .about p {font-size: 15px;}
@@ -239,22 +247,20 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 }
 @media (max-width: 992px) {
     .welc span {font-size: 30px;}
-    .welc p {    font-size: 20px;
-    width: 35%;}
-      .welc div{left: 1%}
+    .welc p {font-size: 20px;}
 
     
 }
-
-
-  
+@media (max-width: 922px) {
+    .welc span {font-size: 30px;}
+    .welc div{left: 1%}
 
     
 }
 @media (max-width: 792px) {
     .welc span {font-size: 40px;}
-    .copy ul li a i{font-size: 10px;}
-    .copy div{font-size: 10px;}
+    .copy ul li a i{font-size: 15px;}
+    .copy div{font-size: 15px;}
 
     
 }
