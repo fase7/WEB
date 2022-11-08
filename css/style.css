@@ -197,6 +197,11 @@ justify-content: flex-end;align-items: center;text-transform: capitalize;}
 
 
 }
+@media (max-width: 380px) {
+    .skills div img {height: 70px;
+        width: 70px;}
+
+}
 
 
 /* Mobile */
