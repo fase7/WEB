@@ -146,7 +146,7 @@ width: 85%;margin-left: auto;
         margin-right: auto;
         border-radius: 25px;
     flex-wrap: wrap;box-shadow:var(--maincolor) 5px 2px 13px 5px;}
-.skills div img {height: 150px;width: 150px;}
+.skills div img {height: 105px;width: 105px;}
 .skills div {margin-left: auto;
 margin-right: auto;transition: 0.2s;}
 .skills div:hover{padding-right: 20px;}
